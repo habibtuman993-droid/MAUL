@@ -1,76 +1,42 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>PORTFOLIO</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">Tentang Saya</a></li>
-                    <li><a href="#projects">Proyek</a></li>
-                    <li><a href="#contact">Kontak</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Responsive Portfolio Website</h1>
+            <p>Full video on YouTube: <a href="https://www.youtube.com/@mzcode01">@mzcode01</a></p>
+        </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
-            <h2>Coding the Future with Neon</h2>
-            <p>Frontend Developer & UI Designer</p>
-            <a href="#projects" class="btn">Lihat Proyek</a>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <h2>Tentang Saya</h2>
-            <p>Saya seorang pengembang web dengan pengalaman di bidang pengembangan antarmuka dan desain UI. Saya memiliki keahlian dalam HTML, CSS, JavaScript, serta berbagai teknologi web lainnya.</p>
-        </div>
-    </section>
-
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Proyek Saya</h2>
-            <div class="project-card">
-                <img src="images/project1.jpg" alt="Project 1">
-                <h3>Proyek 1</h3>
-                <p>Deskripsi proyek pertama saya yang menggabungkan desain modern dengan fungsionalitas yang tinggi.</p>
+        <section class="portfolio">
+            <div class="portfolio-header">
+                <h2>CODE THE FUTURE WITH NEON</h2>
+                <p>FRONTEND DEVELOPER & UI DESIGNER</p>
             </div>
-            <div class="project-card">
-                <img src="images/project2.jpg" alt="Project 2">
-                <h3>Proyek 2</h3>
-                <p>Deskripsi proyek kedua saya dengan fokus pada pengembangan aplikasi responsif dan interaktif.</p>
+
+            <div class="portfolio-images">
+                <div class="image-desktop">
+                    <img src="desktop-view.jpg" alt="Desktop View">
+                </div>
+                <div class="image-mobile">
+                    <img src="mobile-view.jpg" alt="Mobile View">
+                </div>
             </div>
-        </div>
-    </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Kontak</h2>
-            <p>Hubungi saya melalui email atau media sosial berikut:</p>
-            <ul>
-                <li>Email: [email@example.com]</li>
-                <li>LinkedIn: [Link LinkedIn]</li>
-                <li>GitHub: [Link GitHub]</li>
-            </ul>
-        </div>
-    </section>
+            <div class="cta-buttons">
+                <button>See Projects</button>
+                <button>Contact Me</button>
+            </div>
+        </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Portofolio Saya. Semua hak cipta dilindungi.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+        <footer>
+            <p>Check description for source codes!</p>
+        </footer>
+    </div>
 </body>
 </html>
